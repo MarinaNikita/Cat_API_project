@@ -3,16 +3,20 @@ Overview
 This project is an API testing project built using Python, Flask, and the requests library. The main objective is to test file upload functionality for images, ensuring that the correct responses are returned based on different scenarios (valid/invalid file types, missing files, etc.).
 
 Features
+
 Upload image files via an API endpoint.
 Validate that images are successfully uploaded and returned in the response.
 Handle cases where no file or an invalid file type is uploaded.
+
 Project Structure
 app.py: Main Flask application to handle file uploads.
 tests/: Contains test scripts to validate the file upload functionality.
+
 Dependencies
 Flask: Web framework for building the API.
 requests: Used for sending HTTP requests in tests.
 os: For handling file operations (such as removing test files).
+
 Installation
 To get started with this project, follow the steps below:
 
