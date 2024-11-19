@@ -2,7 +2,7 @@ Cat API Project
 Overview
 This project is an API testing project built using Python, Flask, and the requests library. The main objective is to test file upload functionality for images, ensuring that the correct responses are returned based on different scenarios (valid/invalid file types, missing files, etc.).
 
-Features
+Features 
 
 Upload image files via an API endpoint.
 Validate that images are successfully uploaded and returned in the response.
